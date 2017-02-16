@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		17208B6C1E51D69900066166 /* duration.png in Resources */ = {isa = PBXBuildFile; fileRef = 17208B641E51D69900066166 /* duration.png */; };
+		17208B6D1E51D69900066166 /* maxVolume.png in Resources */ = {isa = PBXBuildFile; fileRef = 17208B651E51D69900066166 /* maxVolume.png */; };
+		17208B6E1E51D69900066166 /* miniVolume.png in Resources */ = {isa = PBXBuildFile; fileRef = 17208B661E51D69900066166 /* miniVolume.png */; };
+		17208B6F1E51D69900066166 /* music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 17208B671E51D69900066166 /* music.mp3 */; };
+		17208B701E51D69900066166 /* pause.png in Resources */ = {isa = PBXBuildFile; fileRef = 17208B681E51D69900066166 /* pause.png */; };
+		17208B711E51D69900066166 /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = 17208B691E51D69900066166 /* play.png */; };
+		17208B721E51D69900066166 /* thumb.png in Resources */ = {isa = PBXBuildFile; fileRef = 17208B6A1E51D69900066166 /* thumb.png */; };
+		17208B731E51D69900066166 /* thumbHightLight.png in Resources */ = {isa = PBXBuildFile; fileRef = 17208B6B1E51D69900066166 /* thumbHightLight.png */; };
 		174224DF1E51D26F006B5BA1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174224DE1E51D26F006B5BA1 /* AppDelegate.swift */; };
 		174224E11E51D26F006B5BA1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174224E01E51D26F006B5BA1 /* ViewController.swift */; };
 		174224E41E51D26F006B5BA1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 174224E21E51D26F006B5BA1 /* Main.storyboard */; };
@@ -34,6 +42,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		17208B641E51D69900066166 /* duration.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = duration.png; sourceTree = "<group>"; };
+		17208B651E51D69900066166 /* maxVolume.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = maxVolume.png; sourceTree = "<group>"; };
+		17208B661E51D69900066166 /* miniVolume.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = miniVolume.png; sourceTree = "<group>"; };
+		17208B671E51D69900066166 /* music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music.mp3; sourceTree = "<group>"; };
+		17208B681E51D69900066166 /* pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pause.png; sourceTree = "<group>"; };
+		17208B691E51D69900066166 /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
+		17208B6A1E51D69900066166 /* thumb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thumb.png; sourceTree = "<group>"; };
+		17208B6B1E51D69900066166 /* thumbHightLight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thumbHightLight.png; sourceTree = "<group>"; };
 		174224DB1E51D26F006B5BA1 /* PlayMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlayMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		174224DE1E51D26F006B5BA1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		174224E01E51D26F006B5BA1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -74,6 +90,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		17208B531E51D61B00066166 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				17208B641E51D69900066166 /* duration.png */,
+				17208B651E51D69900066166 /* maxVolume.png */,
+				17208B661E51D69900066166 /* miniVolume.png */,
+				17208B671E51D69900066166 /* music.mp3 */,
+				17208B681E51D69900066166 /* pause.png */,
+				17208B691E51D69900066166 /* play.png */,
+				17208B6A1E51D69900066166 /* thumb.png */,
+				17208B6B1E51D69900066166 /* thumbHightLight.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		174224D21E51D26F006B5BA1 = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +128,7 @@
 		174224DD1E51D26F006B5BA1 /* PlayMusic */ = {
 			isa = PBXGroup;
 			children = (
+				17208B531E51D61B00066166 /* Resources */,
 				174224DE1E51D26F006B5BA1 /* AppDelegate.swift */,
 				174224E01E51D26F006B5BA1 /* ViewController.swift */,
 				174224E21E51D26F006B5BA1 /* Main.storyboard */,
@@ -232,8 +264,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17208B721E51D69900066166 /* thumb.png in Resources */,
 				174224E91E51D26F006B5BA1 /* LaunchScreen.storyboard in Resources */,
+				17208B6C1E51D69900066166 /* duration.png in Resources */,
+				17208B711E51D69900066166 /* play.png in Resources */,
+				17208B701E51D69900066166 /* pause.png in Resources */,
+				17208B6E1E51D69900066166 /* miniVolume.png in Resources */,
+				17208B731E51D69900066166 /* thumbHightLight.png in Resources */,
+				17208B6D1E51D69900066166 /* maxVolume.png in Resources */,
 				174224E61E51D26F006B5BA1 /* Assets.xcassets in Resources */,
+				17208B6F1E51D69900066166 /* music.mp3 in Resources */,
 				174224E41E51D26F006B5BA1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -505,6 +545,7 @@
 				174225051E51D26F006B5BA1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		174225061E51D26F006B5BA1 /* Build configuration list for PBXNativeTarget "PlayMusicTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +554,7 @@
 				174225081E51D26F006B5BA1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		174225091E51D26F006B5BA1 /* Build configuration list for PBXNativeTarget "PlayMusicUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +563,7 @@
 				1742250B1E51D26F006B5BA1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
